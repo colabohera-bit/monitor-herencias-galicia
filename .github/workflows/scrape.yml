@@ -1,5 +1,8 @@
 name: Monitor Herencias Nacional
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 * * * *"
